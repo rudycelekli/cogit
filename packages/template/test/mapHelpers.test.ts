@@ -11,7 +11,7 @@ import {
   sessionId,
   toNodeDetail,
   visibleBand,
-} from "../src/graph.js";
+} from "../src/mapHelpers.js";
 
 const AT = "2026-10-21T10:00:00.000Z";
 

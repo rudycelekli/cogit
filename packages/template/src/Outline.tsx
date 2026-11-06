@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import type { LineageViewModel, ViewSession } from "../../cli/src/view/model.js";
 import { kindLabel } from "./format.js";
-import { nodeId, sessionId } from "./graph.js";
+import { nodeId, sessionId } from "./mapHelpers.js";
 import type { Selection } from "./SidePanel.js";
 
 /**

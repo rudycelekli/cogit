@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import type { ViewFile, ViewSession } from "../../cli/src/view/model.js";
 import { formatStamp } from "./format.js";
-import { shortHash } from "./graph.js";
+import { shortHash } from "./mapHelpers.js";
 
 /**
  * The files view (Story 8.15): every file a recorded message touched, most
