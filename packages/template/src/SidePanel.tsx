@@ -22,7 +22,7 @@ import {
   sessionId as sessionKey,
   shortHash,
   toNodeDetail,
-} from "./graph.js";
+} from "./mapHelpers.js";
 import type { OutlineTarget } from "./Outline.js";
 import { peopleOf } from "./people.js";
 import { ResumeButton } from "./ResumeButton.js";

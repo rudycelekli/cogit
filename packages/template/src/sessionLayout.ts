@@ -1,6 +1,6 @@
 import type { LineageViewModel, ViewSession } from "../../cli/src/view/model.js";
 import { type GitLayout, type GitNode, layoutGitGraph } from "./gitLayout.js";
-import { headOf } from "./graph.js";
+import { headOf } from "./mapHelpers.js";
 
 /**
  * The project map's top level (Story 8.7): each session is one dot on a git
